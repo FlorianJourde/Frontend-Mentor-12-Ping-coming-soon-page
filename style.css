@@ -28,7 +28,7 @@ body {
   align-items: center;
   font-family: var(--ff-primary);
   padding: 1rem;
-  margin-top: 7rem;
+  /*margin-top: 7rem;*/
 }
 
 main {
@@ -190,7 +190,7 @@ button:hover {
   }
 
   body {
-    margin-top: 4.5rem;
+    /*margin-top: 4.5rem;*/
   }
 
   main {
@@ -210,7 +210,7 @@ button:hover {
   }
 
   form {
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
     display: grid;
     grid-template-columns: 4fr 2fr;
     grid-template-rows: 3fr 2fr;
