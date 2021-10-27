@@ -10,7 +10,7 @@ function validateEmail(email) {
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
-  if (!validateEmail(email.value)) {
+  if (!validateEmail(email.value) && !email.classList.contains('sent')) {
     email.classList.add("alert");
   } else {
     if (email.classList.contains('alert')) {
