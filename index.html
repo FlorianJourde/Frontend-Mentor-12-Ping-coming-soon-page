@@ -16,9 +16,9 @@
     <p>Subscribe and get notified</p>
     <form>
       <label for="email"></label>
-      <input type="email" name="email" id="email" class="form-input" placeholder="Your email address...">
-      <p class="form-message error">Please provide a valid email adress</p>
-      <p class="form-message success">Form submission success !</p>
+      <input type="email" name="email" id="email" class="form-input" placeholder="Your email address..." aria-invalid="false">
+      <p class="form-message error" id="error-message"></p>
+      <p class="form-message success" id="success-message"></p>
       <button type="submit">Notify Me</button>
     </form>
     <img class="illustration" src="images/illustration-dashboard.png" alt="" aria-hidden="true">
